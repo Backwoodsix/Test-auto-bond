@@ -233,7 +233,7 @@ while bondCount < targetCount and ((zStep < 0 and zPos >= zEnd) or (zStep > 0 an
     direction *= -1
 end
 
-statusLabel.Text = "Total Bonds Collected: " .. tostring(bondCount) .. " | Cracked by BIGBACK"
+statusLabel.Text = "Total Bonds Collected: " .. tostring(bondCount) .. " | Made by BIGBACK"
 statusLabel.TextSize = 24.5
 task.wait(5.5)
 TeleportService:Teleport(116495829188952, LocalPlayer)
